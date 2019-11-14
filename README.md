@@ -2,6 +2,7 @@
 
 ## Overview
 Puppeteer is a Node library which provides a high-level API to control headless Chrome or Chromium over the DevTools Protocol. It can also be configured to use full (non-headless) Chrome or Chromium.
+
 Jest is a delightful JavaScript Testing Framework with a focus on simplicity. It works ... Jest aims to work out of the box, config free, on most JavaScript projects.
 
 So together they both make a nice full suite for testing and this simple example shows exactly that.
