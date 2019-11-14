@@ -14,26 +14,26 @@ KintoHub aligns teams to ship & operate cloud native apps with ease. [Learn More
 ## Requirements
 
 - Make sure you set 256mb minimum for this job to run -> required to start chrome
-*described in steps bellow
+(**described in steps bellow**)
 
 ## Deployment
 1. Apply this template to your [Github](https://github.com/kintohub/jest-puppeteer-job-example/generate)
 2. Connect your GithubApp to KintoHub.
 3. Create a [JOB](https://docs.kintohub.com/docs/kintoblocks/jobs) on KintoHub and select the Repository you just generated on your account.
 4. Set the **name** for your job
-5. Docker file is inclueded in the repo so you just press **Create Job***
+5. Docker file is inclueded in the repo so you just press **Create Job**
 
 Then on your Master branch click `Build Latest Commit`.
 
 Once complete, Click  Now click `Add To Project`.
 
 ## Build & Deployment Configurations
-1. Once added to a project -> open configuration side panel for your block by click a small gear icon on your block in dependencies list
+1. Once added to a project -> open configuration side panel for your block by click a **small gear icon** on your block in dependencies list
 2. Set **Memory Limit** to 256 MB
 3. Press **Done Configuring**
 
 And now you're ready to go live Click `Deploy` and once done -> go to **Logs** to see your job running.
-*make sure you select **history** logs to monitor your job (since real-time logs only crab logs while pod is running which in case of a jon being killed immediately after script's execution)
+- make sure you select **history** logs to monitor your job (since real-time logs only crab logs while pod is running which in case of a jon being killed immediately after script's execution)
 
 ## Installation & Local Run
 
