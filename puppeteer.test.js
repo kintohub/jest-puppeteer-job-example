@@ -40,7 +40,7 @@ describe("Tests kintohub's title", () => {
     browser.close();
   })
 
-  it('should be titled "Google"', async () => {
+  it('should be titled properly', async () => {
     await page.goto('https://kintohub.com');
     await expect(page.title()).resolves.toMatch('KintoHub - Build cloud native apps in seconds | KintoHub - Build cloud native apps in seconds');
   });
